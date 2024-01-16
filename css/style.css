@@ -77,7 +77,6 @@ nav ul li ul {
     display: none;
     position: absolute;
     margin-left: -10px;
-    transform: translateY(2px);
 }
 
 nav ul li:hover ul {
@@ -92,7 +91,7 @@ nav ul li ul li{
     padding: 10px 10px;
     margin: 0;
     width: 250px;
-    font-size: 14px;
+    font-size: 18px;
     color: black;
     border-bottom: 1px solid rgb(175, 175, 175);
 }
