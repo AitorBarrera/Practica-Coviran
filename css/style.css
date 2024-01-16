@@ -146,6 +146,14 @@ a {
     margin-left: 20px;
 }
 
+.header2 nav li ul li a{
+    color: black;
+}
+
+.header2 nav li ul li{
+    margin-left: 0;
+}
+
 .header2 nav a{
     color: rgb(145, 145, 145);
 }
