@@ -66,7 +66,7 @@ nav ul li {
     list-style-type: none;
     position: relative;
     margin-right: 20px;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 nav>ul>li:hover>a{
@@ -77,6 +77,7 @@ nav ul li ul {
     display: none;
     position: absolute;
     margin-left: -10px;
+    transform: translateY(2px);
 }
 
 nav ul li:hover ul {
@@ -129,13 +130,24 @@ a {
 }
 
 .header2 {
-    padding: 6px 0;
+    padding: 10px 5px;
+}
+
+.header2 img{
+    width: 250px;
 }
 
 .header2 nav{
-    color: rgb(105, 105, 105);
-    font-size: 16px;
-    margin-left: 50px;
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+.header2 nav li{
+    margin-left: 20px;
+}
+
+.header2 nav a{
+    color: rgb(145, 145, 145);
 }
 
 .portada {
